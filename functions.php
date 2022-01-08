@@ -30,9 +30,7 @@ function send_email($pdf,$id,$password,$email)
         //$mail->Host = 'smtp.mailtrap.io';
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        //$mail->Username   = '4f8bd363ef426a';
         $mail->Username   = 'SMTP username';                     //SMTP username
-        //$mail->Password   = 'ffb3d173fea19d';
         $mail->Password   = 'SMTP password';                              //SMTP password
         $mail->SMTPSecure = "tls";         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         //$mail->Port = 2525;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
